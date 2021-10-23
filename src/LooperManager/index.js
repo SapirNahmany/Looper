@@ -1,8 +1,9 @@
+import futureFunkBeats25 from '../loopSamples/120_future_funk_beats_25.mp3';
 
 export const loopSamples = {
     1: {
         title: '120_future_funk_beats_25',
-        audio: new Audio('\\loopSamples\\120_future_funk_beats_25.mp3'),
+        audio: new Audio(futureFunkBeats25),
         isPlaying: false
     },
     2:{
