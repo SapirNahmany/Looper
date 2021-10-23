@@ -2,7 +2,6 @@
   "name": "looper",
   "version": "0.1.0",
   "private": true,
-  "main": "./build/index.html",
   "homepage": "http://SapirNahmany.github.io/Looper",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
