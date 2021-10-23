@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/looper1/static/css/main.b0e0e311.chunk.css",
-    "main.js": "/looper1/static/js/main.1f9e3bed.chunk.js",
-    "main.js.map": "/looper1/static/js/main.1f9e3bed.chunk.js.map",
-    "runtime-main.js": "/looper1/static/js/runtime-main.28165a83.js",
-    "runtime-main.js.map": "/looper1/static/js/runtime-main.28165a83.js.map",
-    "static/js/2.6cb23331.chunk.js": "/looper1/static/js/2.6cb23331.chunk.js",
-    "static/js/2.6cb23331.chunk.js.map": "/looper1/static/js/2.6cb23331.chunk.js.map",
-    "static/js/3.b87689c9.chunk.js": "/looper1/static/js/3.b87689c9.chunk.js",
-    "static/js/3.b87689c9.chunk.js.map": "/looper1/static/js/3.b87689c9.chunk.js.map",
-    "index.html": "/looper1/index.html",
-    "static/css/main.b0e0e311.chunk.css.map": "/looper1/static/css/main.b0e0e311.chunk.css.map",
-    "static/js/2.6cb23331.chunk.js.LICENSE.txt": "/looper1/static/js/2.6cb23331.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/looper1/static/media/logo.6ce24c58.svg"
+    "main.css": "/Looper/static/css/main.b0e0e311.chunk.css",
+    "main.js": "/Looper/static/js/main.c8a71047.chunk.js",
+    "main.js.map": "/Looper/static/js/main.c8a71047.chunk.js.map",
+    "runtime-main.js": "/Looper/static/js/runtime-main.3241bc59.js",
+    "runtime-main.js.map": "/Looper/static/js/runtime-main.3241bc59.js.map",
+    "static/js/2.cdd00085.chunk.js": "/Looper/static/js/2.cdd00085.chunk.js",
+    "static/js/2.cdd00085.chunk.js.map": "/Looper/static/js/2.cdd00085.chunk.js.map",
+    "static/js/3.50803dbd.chunk.js": "/Looper/static/js/3.50803dbd.chunk.js",
+    "static/js/3.50803dbd.chunk.js.map": "/Looper/static/js/3.50803dbd.chunk.js.map",
+    "index.html": "/Looper/index.html",
+    "static/css/main.b0e0e311.chunk.css.map": "/Looper/static/css/main.b0e0e311.chunk.css.map",
+    "static/js/2.cdd00085.chunk.js.LICENSE.txt": "/Looper/static/js/2.cdd00085.chunk.js.LICENSE.txt",
+    "static/media/120_future_funk_beats_25.5eb417fc.mp3": "/Looper/static/media/120_future_funk_beats_25.5eb417fc.mp3",
+    "static/media/logo.6ce24c58.svg": "/Looper/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.28165a83.js",
-    "static/js/2.6cb23331.chunk.js",
+    "static/js/runtime-main.3241bc59.js",
+    "static/js/2.cdd00085.chunk.js",
     "static/css/main.b0e0e311.chunk.css",
-    "static/js/main.1f9e3bed.chunk.js"
+    "static/js/main.c8a71047.chunk.js"
   ]
 }
