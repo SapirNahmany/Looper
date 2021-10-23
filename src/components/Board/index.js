@@ -1,14 +1,14 @@
 import React, { useState, useRef } from 'react';
 import * as LooperManager from '../../LooperManager';
 import Pad from '../Pad';
-import PlayButton from '../PlayButton';
-import StopButton from '../StopButton';
+import ControlButton from '../ControlButton';
 import './styles.css'
 
 const SAMPLE_LENGHT_MS = 8*1000 + 100;
 
 function Board() {
 
+    //const [isAllStopped, setIsAllStopped] = useState(false);
     const loopSamplesDataRef = useRef();
     const intervalIdRef = useRef();
     const [loopSamplesData, setLoopSamplesData] = useState(LooperManager.loopSamples);
@@ -24,7 +24,7 @@ function Board() {
                     //sample[id] is the first one to play. 
                     LooperManager.startSample(updatedLoopSamplesData);
                     
-                    intervalIdRef.current = setInterval(()=> {
+                    intervalIdRef.current = setInterval(()=> {   // get id
                         LooperManager.startSample(loopSamplesDataRef.current);                    
                     }, SAMPLE_LENGHT_MS);
                 }
@@ -36,7 +36,8 @@ function Board() {
 
                 if(!isOtherSamplePlaying){
                     // no one is playing. cancel interval
-                    clearInterval(intervalIdRef.current)
+                    clearInterval(intervalIdRef.current);
+                    intervalIdRef.current=undefined;
                 }
             }
             loopSamplesDataRef.current = updatedLoopSamplesData;
@@ -46,18 +47,24 @@ function Board() {
     }
     const onClickStopHandler = function(){
         console.log("Stop button was cliked");
+        LooperManager.stopAllAudio(loopSamplesData);
+        if(intervalIdRef.current){
+            clearInterval(intervalIdRef.current);
+        }
     }
-    /*
-    useEffect(()=>{
-    }, [])
-    */
+ 
+    const onClickPlayHandler = function(){
+        LooperManager.startSample(loopSamplesData);
+        
+    }
     return(
 
         <div className = "board-style">
-                <PlayButton></PlayButton>
-                <StopButton onClickStopHandler={onClickStopHandler}></StopButton>
+                <ControlButton label = "Play" onClickHandler={onClickPlayHandler}/>
+                <ControlButton label = "Stop" onClickHandler={onClickStopHandler}/> 
 
-            {
+                
+            {   
                 Object.entries(loopSamplesData).map(([id, sample]) => <Pad id={id} {...sample} setIsPlaying={setIsPlaying}/>)
             }
            
