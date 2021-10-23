@@ -1,12 +1,12 @@
 import futureFunkBeats25 from '../loopSamples/120_future_funk_beats_25.mp3';
-import stutter_breakbeats_16 from '../loopSamples/120_stutter_breakbeats_16.mp3';
-import bass_warwick from '../loopSamples/Bass Warwick heavy funk groove on E 120 BPM.mp3';
-import electric_guitar from '../loopSamples/electric guitar coutry slide 120bpm - B.mp3';
-import fUD_120_StompySlosh from '../loopSamples/FUD_120_StompySlosh.mp3';
-import grooveB_120bpm_Tanggu from '../loopSamples/GrooveB_120bpm_Tanggu.mp3';
-import mazePolitics_120_Perc from '../loopSamples/MazePolitics_120_Perc.mp3';
-import pAS3GROOVE1 from '../loopSamples/PAS3GROOVE1.03B.mp3';
-import silentStar_120_Em_OrganSynth from '../loopSamples/SilentStar_120_Em_OrganSynth.mp3';
+import stutterBreakBeats_16 from '../loopSamples/120_stutter_breakbeats_16.mp3';
+import bassWarwick from '../loopSamples/Bass Warwick heavy funk groove on E 120 BPM.mp3';
+import electricGuitar from '../loopSamples/electric guitar coutry slide 120bpm - B.mp3';
+import fud120StompySlosh from '../loopSamples/FUD_120_StompySlosh.mp3';
+import grooveB120bpmTanggu from '../loopSamples/GrooveB_120bpm_Tanggu.mp3';
+import mazePolitics120Perc from '../loopSamples/MazePolitics_120_Perc.mp3';
+import pas3Groove1 from '../loopSamples/PAS3GROOVE1.03B.mp3'; 
+import silentStar120EmOrganSynth from '../loopSamples/SilentStar_120_Em_OrganSynth.mp3';
 
 export const loopSamples = {
     1: {
@@ -16,43 +16,43 @@ export const loopSamples = {
     },
     2:{
         title: '120_stutter_breakbeats_16',
-        audio: new Audio(stutter_breakbeats_16),
+        audio: new Audio(stutterBreakBeats_16),
         isPlaying: false
     },
     3:{
     
         title: 'Bass Warwick heavy funk groove on E 120 BPM',
-        audio: new Audio(bass_warwick),
+        audio: new Audio(bassWarwick),
         isPlaying: false
     },
     4:{
         title: 'electric guitar coutry slide 120bpm - B',
-        audio: new Audio(electric_guitar),
+        audio: new Audio(electricGuitar),
         isPlaying: false
     },
     5:{
         title: 'FUD_120_StompySlosh',
-        audio: new Audio(fUD_120_StompySlosh),
+        audio: new Audio(fud120StompySlosh),
         isPlaying: false
     },
     6:{
         title: 'GrooveB_120bpm_Tanggu',
-        audio: new Audio(grooveB_120bpm_Tanggu),
+        audio: new Audio(grooveB120bpmTanggu),
         isPlaying: false
     },
     7:{
         title: 'MazePolitics_120_Perc',
-        audio: new Audio(mazePolitics_120_Perc),
+        audio: new Audio(mazePolitics120Perc),
         isPlaying: false
     },
     8:{
         title: 'PAS3GROOVE1.03B',
-        audio: new Audio(pAS3GROOVE1),
+        audio: new Audio(pas3Groove1),
         isPlaying: false
     },
     9:{
         title: 'SilentStar_120_Em_OrganSynth',
-        audio: new Audio(silentStar_120_Em_OrganSynth),
+        audio: new Audio(silentStar120EmOrganSynth),
         isPlaying: false
     }
 };
