@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Looper/static/css/main.b0e0e311.chunk.css",
-    "main.js": "/Looper/static/js/main.fe6b6b86.chunk.js",
-    "main.js.map": "/Looper/static/js/main.fe6b6b86.chunk.js.map",
-    "runtime-main.js": "/Looper/static/js/runtime-main.3241bc59.js",
-    "runtime-main.js.map": "/Looper/static/js/runtime-main.3241bc59.js.map",
-    "static/js/2.cdd00085.chunk.js": "/Looper/static/js/2.cdd00085.chunk.js",
-    "static/js/2.cdd00085.chunk.js.map": "/Looper/static/js/2.cdd00085.chunk.js.map",
-    "static/js/3.50803dbd.chunk.js": "/Looper/static/js/3.50803dbd.chunk.js",
-    "static/js/3.50803dbd.chunk.js.map": "/Looper/static/js/3.50803dbd.chunk.js.map",
+    "main.css": "/Looper/static/css/main.4adec457.chunk.css",
+    "main.js": "/Looper/static/js/main.80f7b8d7.chunk.js",
+    "main.js.map": "/Looper/static/js/main.80f7b8d7.chunk.js.map",
+    "runtime-main.js": "/Looper/static/js/runtime-main.51cbabce.js",
+    "runtime-main.js.map": "/Looper/static/js/runtime-main.51cbabce.js.map",
+    "static/js/2.f1da0b4a.chunk.js": "/Looper/static/js/2.f1da0b4a.chunk.js",
+    "static/js/2.f1da0b4a.chunk.js.map": "/Looper/static/js/2.f1da0b4a.chunk.js.map",
+    "static/js/3.67db2b0b.chunk.js": "/Looper/static/js/3.67db2b0b.chunk.js",
+    "static/js/3.67db2b0b.chunk.js.map": "/Looper/static/js/3.67db2b0b.chunk.js.map",
     "index.html": "/Looper/index.html",
-    "static/css/main.b0e0e311.chunk.css.map": "/Looper/static/css/main.b0e0e311.chunk.css.map",
-    "static/js/2.cdd00085.chunk.js.LICENSE.txt": "/Looper/static/js/2.cdd00085.chunk.js.LICENSE.txt",
+    "static/css/main.4adec457.chunk.css.map": "/Looper/static/css/main.4adec457.chunk.css.map",
+    "static/js/2.f1da0b4a.chunk.js.LICENSE.txt": "/Looper/static/js/2.f1da0b4a.chunk.js.LICENSE.txt",
     "static/media/120_future_funk_beats_25.5eb417fc.mp3": "/Looper/static/media/120_future_funk_beats_25.5eb417fc.mp3",
     "static/media/120_stutter_breakbeats_16.37c82282.mp3": "/Looper/static/media/120_stutter_breakbeats_16.37c82282.mp3",
     "static/media/Bass Warwick heavy funk groove on E 120 BPM.52c24c81.mp3": "/Looper/static/media/Bass Warwick heavy funk groove on E 120 BPM.52c24c81.mp3",
@@ -24,9 +24,9 @@
     "static/media/logo.6ce24c58.svg": "/Looper/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.3241bc59.js",
-    "static/js/2.cdd00085.chunk.js",
-    "static/css/main.b0e0e311.chunk.css",
-    "static/js/main.fe6b6b86.chunk.js"
+    "static/js/runtime-main.51cbabce.js",
+    "static/js/2.f1da0b4a.chunk.js",
+    "static/css/main.4adec457.chunk.css",
+    "static/js/main.80f7b8d7.chunk.js"
   ]
 }
