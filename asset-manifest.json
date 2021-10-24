@@ -1,35 +1,37 @@
 {
   "files": {
-    "main.css": "/Looper/static/css/main.db23f286.chunk.css",
-    "main.js": "/Looper/static/js/main.9b7f691a.chunk.js",
-    "main.js.map": "/Looper/static/js/main.9b7f691a.chunk.js.map",
+    "main.css": "/Looper/static/css/main.cc3a486a.chunk.css",
+    "main.js": "/Looper/static/js/main.f62b6801.chunk.js",
+    "main.js.map": "/Looper/static/js/main.f62b6801.chunk.js.map",
     "runtime-main.js": "/Looper/static/js/runtime-main.51cbabce.js",
     "runtime-main.js.map": "/Looper/static/js/runtime-main.51cbabce.js.map",
-    "static/js/2.f1da0b4a.chunk.js": "/Looper/static/js/2.f1da0b4a.chunk.js",
-    "static/js/2.f1da0b4a.chunk.js.map": "/Looper/static/js/2.f1da0b4a.chunk.js.map",
+    "static/js/2.964868b3.chunk.js": "/Looper/static/js/2.964868b3.chunk.js",
+    "static/js/2.964868b3.chunk.js.map": "/Looper/static/js/2.964868b3.chunk.js.map",
     "static/js/3.67db2b0b.chunk.js": "/Looper/static/js/3.67db2b0b.chunk.js",
     "static/js/3.67db2b0b.chunk.js.map": "/Looper/static/js/3.67db2b0b.chunk.js.map",
     "index.html": "/Looper/index.html",
-    "static/css/main.db23f286.chunk.css.map": "/Looper/static/css/main.db23f286.chunk.css.map",
-    "static/js/2.f1da0b4a.chunk.js.LICENSE.txt": "/Looper/static/js/2.f1da0b4a.chunk.js.LICENSE.txt",
+    "static/css/main.cc3a486a.chunk.css.map": "/Looper/static/css/main.cc3a486a.chunk.css.map",
+    "static/js/2.964868b3.chunk.js.LICENSE.txt": "/Looper/static/js/2.964868b3.chunk.js.LICENSE.txt",
     "static/media/120_future_funk_beats_25.5eb417fc.mp3": "/Looper/static/media/120_future_funk_beats_25.5eb417fc.mp3",
     "static/media/120_stutter_breakbeats_16.37c82282.mp3": "/Looper/static/media/120_stutter_breakbeats_16.37c82282.mp3",
     "static/media/Bass Warwick heavy funk groove on E 120 BPM.52c24c81.mp3": "/Looper/static/media/Bass Warwick heavy funk groove on E 120 BPM.52c24c81.mp3",
     "static/media/FUD_120_StompySlosh.27bdc145.mp3": "/Looper/static/media/FUD_120_StompySlosh.27bdc145.mp3",
     "static/media/GrooveB_120bpm_Tanggu.3e1411b4.mp3": "/Looper/static/media/GrooveB_120bpm_Tanggu.3e1411b4.mp3",
     "static/media/MazePolitics_120_Perc.2d08c654.mp3": "/Looper/static/media/MazePolitics_120_Perc.2d08c654.mp3",
+    "static/media/Netta-Barzilai.8df624cd.jpg": "/Looper/static/media/Netta-Barzilai.8df624cd.jpg",
     "static/media/PAS3GROOVE1.03B.f77c6da4.mp3": "/Looper/static/media/PAS3GROOVE1.03B.f77c6da4.mp3",
     "static/media/SilentStar_120_Em_OrganSynth.f2d668af.mp3": "/Looper/static/media/SilentStar_120_Em_OrganSynth.f2d668af.mp3",
     "static/media/bass.93ac0857.jpg": "/Looper/static/media/bass.93ac0857.jpg",
     "static/media/electric guitar coutry slide 120bpm - B.230fcab8.mp3": "/Looper/static/media/electric guitar coutry slide 120bpm - B.230fcab8.mp3",
     "static/media/guitar.dec4ab5b.jpg": "/Looper/static/media/guitar.dec4ab5b.jpg",
     "static/media/logo.6ce24c58.svg": "/Looper/static/media/logo.6ce24c58.svg",
+    "static/media/moveo.d9663a98.jpg": "/Looper/static/media/moveo.d9663a98.jpg",
     "static/media/tarbuka.4df57900.png": "/Looper/static/media/tarbuka.4df57900.png"
   },
   "entrypoints": [
     "static/js/runtime-main.51cbabce.js",
-    "static/js/2.f1da0b4a.chunk.js",
-    "static/css/main.db23f286.chunk.css",
-    "static/js/main.9b7f691a.chunk.js"
+    "static/js/2.964868b3.chunk.js",
+    "static/css/main.cc3a486a.chunk.css",
+    "static/js/main.f62b6801.chunk.js"
   ]
 }
