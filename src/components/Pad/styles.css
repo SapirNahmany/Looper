@@ -1,7 +1,6 @@
 .pad {
   display: flex;
-  align-items: center;
-  flex-direction: column;
+  justify-content: center;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
   padding: 0.5rem;
   margin: 1rem 0; 
@@ -11,4 +10,18 @@
 
 .pad-playing {
   background-color: #b6aeae;
+}
+
+.pad button{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.pad button img{
+  margin: 10px 0;
+}
+
+.pad button span{
+  font-size: 1.8em;
 }

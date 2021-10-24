@@ -1,3 +1,5 @@
+import * as LooperLocalStorage from '../LooperLocalStorage';
+
 import futureFunkBeats25 from '../media/audio/120_future_funk_beats_25.mp3';
 import stutterBreakBeats_16 from '../media/audio/120_stutter_breakbeats_16.mp3';
 import bassWarwick from '../media/audio/Bass Warwick heavy funk groove on E 120 BPM.mp3';
@@ -142,4 +144,8 @@ export function stopAllAudio(samplesData){
             stopAudio(audio);
         }
     });
+}
+
+export function getLoopSamples(){
+    return LooperLocalStorage.enrichPlayingSamples(loopSamples);
 }

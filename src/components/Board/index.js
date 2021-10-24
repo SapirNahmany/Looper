@@ -1,5 +1,6 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useState, useRef } from 'react';
 import * as LooperManager from '../../LooperManager';
+import * as LooperLocalStorage from '../../LooperLocalStorage';
 import Pad from '../Pad';
 import ControlButton from '../ControlButton';
 import './styles.css'
@@ -11,7 +12,7 @@ function Board() {
     //const [isAllStopped, setIsAllStopped] = useState(false);
     const loopSamplesDataRef = useRef();
     const intervalIdRef = useRef();
-    const [loopSamplesData, setLoopSamplesData] = useState(LooperManager.loopSamples);
+    const [loopSamplesData, setLoopSamplesData] = useState(()=>LooperManager.getLoopSamples());
     console.log('board render')
     
     const setIsPlaying = function(id, isPlaying) {   
@@ -48,6 +49,7 @@ function Board() {
                 }
             }
             loopSamplesDataRef.current = updatedLoopSamplesData;
+            LooperLocalStorage.setPlayingSamplesIds(updatedLoopSamplesData);
             return updatedLoopSamplesData;
         });
         console.log(loopSamplesData)

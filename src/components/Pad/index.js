@@ -1,8 +1,7 @@
-import React, {useState} from 'react';
-import { loopSamples } from '../../LooperManager';
+import React from 'react';
 import './styles.css'
 
-function Pad({id, title, isPlaying, image, setIsPlaying}) {
+function Pad({id, isPlaying, image, setIsPlaying}) {
 
     const clickHandler = () =>{
         setIsPlaying(id, !isPlaying);
@@ -12,9 +11,9 @@ function Pad({id, title, isPlaying, image, setIsPlaying}) {
 
         <div className={`pad ${isPlaying? 'pad-playing': ''}`}>
             <button onClick={clickHandler}>
-                <h2>{id}</h2>
+                <span>{id}</span>
                 <img src = {image} height="80px" width="80px"/>
-                <h3>{isPlaying ? 'Pause': 'Play'}</h3>
+                <span>{isPlaying ? 'Pause': 'Play'}</span>
             </button>
         </div>
 
