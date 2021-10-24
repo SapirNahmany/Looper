@@ -1,59 +1,78 @@
-import futureFunkBeats25 from '../loopSamples/120_future_funk_beats_25.mp3';
-import stutterBreakBeats_16 from '../loopSamples/120_stutter_breakbeats_16.mp3';
-import bassWarwick from '../loopSamples/Bass Warwick heavy funk groove on E 120 BPM.mp3';
-import electricGuitar from '../loopSamples/electric guitar coutry slide 120bpm - B.mp3';
-import fud120StompySlosh from '../loopSamples/FUD_120_StompySlosh.mp3';
-import grooveB120bpmTanggu from '../loopSamples/GrooveB_120bpm_Tanggu.mp3';
-import mazePolitics120Perc from '../loopSamples/MazePolitics_120_Perc.mp3';
-import pas3Groove1 from '../loopSamples/PAS3GROOVE1.03B.mp3'; 
-import silentStar120EmOrganSynth from '../loopSamples/SilentStar_120_Em_OrganSynth.mp3';
+import futureFunkBeats25 from '../media/audio/120_future_funk_beats_25.mp3';
+import stutterBreakBeats_16 from '../media/audio/120_stutter_breakbeats_16.mp3';
+import bassWarwick from '../media/audio/Bass Warwick heavy funk groove on E 120 BPM.mp3';
+import electricGuitar from '../media/audio/electric guitar coutry slide 120bpm - B.mp3';
+import fud120StompySlosh from '../media/audio/FUD_120_StompySlosh.mp3';
+import grooveB120bpmTanggu from '../media/audio/GrooveB_120bpm_Tanggu.mp3';
+import mazePolitics120Perc from '../media/audio/MazePolitics_120_Perc.mp3';
+import pas3Groove1 from '../media/audio/PAS3GROOVE1.03B.mp3'; 
+import silentStar120EmOrganSynth from '../media/audio/SilentStar_120_Em_OrganSynth.mp3';
+
+import icon1 from '../media/images/icon1.jpg'
+import icon2 from '../media/images/icon2.png'
+import bass from '../media/images/bass.jpg'
+import guitar from '../media/images/guitar.jpg'
+import icon3 from '../media/images/icon3.png'
+import tarbuka from '../media/images/tarbuka.png'
+import icon4 from '../media/images/icon4.png'
+import drums from '../media/images/drums.png'
+import organ from '../media/images/organ.jpg'
 
 export const loopSamples = {
     1: {
         title: '120_future_funk_beats_25',
-        audio: new Audio(futureFunkBeats25),
-        isPlaying: false
+        audio: new Audio(futureFunkBeats25),  // HTML Audio Element
+        isPlaying: false,
+        image: icon1
     },
     2:{
         title: '120_stutter_breakbeats_16',
         audio: new Audio(stutterBreakBeats_16),
-        isPlaying: false
+        isPlaying: false,
+        image: icon2
     },
     3:{
     
         title: 'Bass Warwick heavy funk groove on E 120 BPM',
         audio: new Audio(bassWarwick),
-        isPlaying: false
+        isPlaying: false,
+        image: bass
     },
     4:{
         title: 'electric guitar coutry slide 120bpm - B',
         audio: new Audio(electricGuitar),
-        isPlaying: false
+        isPlaying: false,
+        image: guitar
     },
     5:{
         title: 'FUD_120_StompySlosh',
         audio: new Audio(fud120StompySlosh),
-        isPlaying: false
+        isPlaying: false,
+        image: icon3
     },
     6:{
         title: 'GrooveB_120bpm_Tanggu',
         audio: new Audio(grooveB120bpmTanggu),
-        isPlaying: false
+        isPlaying: false,
+        image: tarbuka
     },
     7:{
         title: 'MazePolitics_120_Perc',
         audio: new Audio(mazePolitics120Perc),
-        isPlaying: false
+        isPlaying: false,
+        image: icon4
     },
     8:{
         title: 'PAS3GROOVE1.03B',
         audio: new Audio(pas3Groove1),
-        isPlaying: false
+        isPlaying: false,
+        image: drums
     },
     9:{
         title: 'SilentStar_120_Em_OrganSynth',
         audio: new Audio(silentStar120EmOrganSynth),
-        isPlaying: false
+        isPlaying: false,
+        image: organ
     }
 };
 window.x  = loopSamples;
@@ -84,11 +103,20 @@ export function isSomeSamplePlaying(samplesData) {
 export function startSample(samplesData){
     Object.values(samplesData).forEach(({isPlaying, audio})=>{
         if(isPlaying){
-            stopAudio(audio);
-        // //             audio.currentTime = 0;
+            try{
+           // stopAudio(audio).then(()=>{
+                audio.currentTime = 0;
 
-            audio.play();
+                audio.play();
 
+           // })
+        // audio.currentTime = 0;
+            
+            }
+            catch{
+
+
+            }
             // if (audio.paused) {
             //     audio.play();
             // }else{
@@ -99,7 +127,19 @@ export function startSample(samplesData){
 }
 
 export function stopAudio(audio){
-    audio.pause();
+    audio.pause()
     audio.currentTime = 0;
+
+    // return audio.pause().then(()=>{
+    //     audio.currentTime = 0;
+
+    // })
 }
 
+export function stopAllAudio(samplesData){
+    Object.values(samplesData).forEach(({isPlaying, audio})=>{
+        if(isPlaying){
+            stopAudio(audio);
+        }
+    });
+}

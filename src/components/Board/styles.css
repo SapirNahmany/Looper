@@ -1,12 +1,34 @@
-.board-style{
-
+.board{
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    flex-direction: column;
     box-shadow: 0 2px 8px rgba(248, 35, 35, 0.25);
     padding: 0.5rem;
-    margin: 1rem 0;
+    margin: 20px 0;
     border-radius: 12px;
     background-color: #363535;
+    max-width: 900px;
+    width: 100%;
+}
+
+.pads{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 5px;
+    width: 100%;
+}
+
+@media only screen and (min-width: 400px){
+    .pads{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.controls-panel{
+    display: flex;
+}
+
+.controls-panel > div{
+    margin: 5px;
 
 }
