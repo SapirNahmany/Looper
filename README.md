@@ -6,7 +6,7 @@
 
 ## General Info
 
-A loop machine with 9 pads that represent different loop samples. The machine enables
+This website simulates a loop machine with 9 pads that represent different loop samples. The machine enables
 playing these loop samples in real-time and plays it back on repeat.
 
 When a pad is turned on, the sample which he represent will start playing its loop on the
