@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Looper/static/css/main.af6362d3.chunk.css",
-    "main.js": "/Looper/static/js/main.f62b6801.chunk.js",
-    "main.js.map": "/Looper/static/js/main.f62b6801.chunk.js.map",
-    "runtime-main.js": "/Looper/static/js/runtime-main.51cbabce.js",
-    "runtime-main.js.map": "/Looper/static/js/runtime-main.51cbabce.js.map",
-    "static/js/2.964868b3.chunk.js": "/Looper/static/js/2.964868b3.chunk.js",
-    "static/js/2.964868b3.chunk.js.map": "/Looper/static/js/2.964868b3.chunk.js.map",
-    "static/js/3.67db2b0b.chunk.js": "/Looper/static/js/3.67db2b0b.chunk.js",
-    "static/js/3.67db2b0b.chunk.js.map": "/Looper/static/js/3.67db2b0b.chunk.js.map",
+    "main.css": "/Looper/static/css/main.1ce8825f.chunk.css",
+    "main.js": "/Looper/static/js/main.9f3fc6d0.chunk.js",
+    "main.js.map": "/Looper/static/js/main.9f3fc6d0.chunk.js.map",
+    "runtime-main.js": "/Looper/static/js/runtime-main.533d2994.js",
+    "runtime-main.js.map": "/Looper/static/js/runtime-main.533d2994.js.map",
+    "static/js/2.a6fb9b74.chunk.js": "/Looper/static/js/2.a6fb9b74.chunk.js",
+    "static/js/2.a6fb9b74.chunk.js.map": "/Looper/static/js/2.a6fb9b74.chunk.js.map",
+    "static/js/3.b4c8642f.chunk.js": "/Looper/static/js/3.b4c8642f.chunk.js",
+    "static/js/3.b4c8642f.chunk.js.map": "/Looper/static/js/3.b4c8642f.chunk.js.map",
     "index.html": "/Looper/index.html",
-    "static/css/main.af6362d3.chunk.css.map": "/Looper/static/css/main.af6362d3.chunk.css.map",
-    "static/js/2.964868b3.chunk.js.LICENSE.txt": "/Looper/static/js/2.964868b3.chunk.js.LICENSE.txt",
+    "static/css/main.1ce8825f.chunk.css.map": "/Looper/static/css/main.1ce8825f.chunk.css.map",
+    "static/js/2.a6fb9b74.chunk.js.LICENSE.txt": "/Looper/static/js/2.a6fb9b74.chunk.js.LICENSE.txt",
     "static/media/120_future_funk_beats_25.5eb417fc.mp3": "/Looper/static/media/120_future_funk_beats_25.5eb417fc.mp3",
     "static/media/120_stutter_breakbeats_16.37c82282.mp3": "/Looper/static/media/120_stutter_breakbeats_16.37c82282.mp3",
     "static/media/Bass Warwick heavy funk groove on E 120 BPM.52c24c81.mp3": "/Looper/static/media/Bass Warwick heavy funk groove on E 120 BPM.52c24c81.mp3",
@@ -24,14 +24,13 @@
     "static/media/bass.93ac0857.jpg": "/Looper/static/media/bass.93ac0857.jpg",
     "static/media/electric guitar coutry slide 120bpm - B.230fcab8.mp3": "/Looper/static/media/electric guitar coutry slide 120bpm - B.230fcab8.mp3",
     "static/media/guitar.dec4ab5b.jpg": "/Looper/static/media/guitar.dec4ab5b.jpg",
-    "static/media/logo.6ce24c58.svg": "/Looper/static/media/logo.6ce24c58.svg",
     "static/media/moveo.d9663a98.jpg": "/Looper/static/media/moveo.d9663a98.jpg",
     "static/media/tarbuka.4df57900.png": "/Looper/static/media/tarbuka.4df57900.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.51cbabce.js",
-    "static/js/2.964868b3.chunk.js",
-    "static/css/main.af6362d3.chunk.css",
-    "static/js/main.f62b6801.chunk.js"
+    "static/js/runtime-main.533d2994.js",
+    "static/js/2.a6fb9b74.chunk.js",
+    "static/css/main.1ce8825f.chunk.css",
+    "static/js/main.9f3fc6d0.chunk.js"
   ]
 }
