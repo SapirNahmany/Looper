@@ -50,7 +50,7 @@ export const loopSamples = {
         title: 'FUD_120_StompySlosh',
         audio: new Audio(fud120StompySlosh),
         isPlaying: false,
-        image: icon3
+        image: drums
     },
     6:{
         title: 'GrooveB_120bpm_Tanggu',
@@ -68,7 +68,7 @@ export const loopSamples = {
         title: 'PAS3GROOVE1.03B',
         audio: new Audio(pas3Groove1),
         isPlaying: false,
-        image: drums
+        image: icon3
     },
     9:{
         title: 'SilentStar_120_Em_OrganSynth',
@@ -77,16 +77,15 @@ export const loopSamples = {
         image: organ
     }
 };
-window.x  = loopSamples;
     
 export function setIsPlaying(loopSamples, id, isPlaying){
     return Object.entries(loopSamples).reduce((result, [sampleId, sample])=> {
         if(id === sampleId){
             return {
-                ...result, 
+                ...result,      // aggregated result
                 [sampleId] : {
                     ...sample, 
-                    isPlaying
+                    isPlaying   //updating property isPlaying
                 }
             };
         };
@@ -105,25 +104,8 @@ export function isSomeSamplePlaying(samplesData) {
 export function startSample(samplesData){
     Object.values(samplesData).forEach(({isPlaying, audio})=>{
         if(isPlaying){
-            try{
-           // stopAudio(audio).then(()=>{
                 audio.currentTime = 0;
-
                 audio.play();
-
-           // })
-        // audio.currentTime = 0;
-            
-            }
-            catch{
-
-
-            }
-            // if (audio.paused) {
-            //     audio.play();
-            // }else{
-            //     audio.currentTime = 0
-            // }
         }
     });
 }
@@ -131,11 +113,6 @@ export function startSample(samplesData){
 export function stopAudio(audio){
     audio.pause()
     audio.currentTime = 0;
-
-    // return audio.pause().then(()=>{
-    //     audio.currentTime = 0;
-
-    // })
 }
 
 export function stopAllAudio(samplesData){
