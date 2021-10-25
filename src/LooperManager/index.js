@@ -82,7 +82,7 @@ export function setIsPlaying(loopSamples, id, isPlaying){
     return Object.entries(loopSamples).reduce((result, [sampleId, sample])=> {
         if(id === sampleId){
             return {
-                ...result,      // aggregated result
+                ...result,       // aggregated result
                 [sampleId] : {
                     ...sample, 
                     isPlaying   //updating property isPlaying
